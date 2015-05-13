@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" media="screen" type="text/css" href="../CSS/index_css.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="../CSS/membership_css.css" />
+
+<script type="text/javascript" language="javascript">
+	function func(x)
+	{
+			x.style.background="#CCC";
+	}
+
+	function func_remove(x)
+	{
+			x.style.background="white";
+	}
+
+</script>
+</head>
+
+<body style="background-image:url(../images/background.jpg)">
+
+
+
+<div class="header"></div>
+
+<div class="link_box">
+	<div><a href="index.htm" id="try1" class="try1"> <p class="box_text">HOME </p></a></div>
+	<div><a href="about_us.htm" id="try2" class="try2"> <p class="box_text">ABOUT US </p></a></div>
+	<div><a href="membership.htm" id="try3" class="try3"> <p class="box_text">MEMBERSHIP </p></a></div>
+	<div><a href="#" id="try4" class="try4"> <p class="box_text">EWB-INDIA</p></a></div>
+</div>
+
+<!-- OUTER FORM DIV TAG -->
+<div class="mem_form">
+
+<!-- INNER FORM DIV TAG -->
+	<div class="inner">
+    	<form action="" method="post">
+			<label for="nm">Name </label>
+            <input type="text" class="text" id="member_name"  name="member_name" onfocus="func(this)" onblur="func_remove(this)"/><br />
+        	<label for="mail">E-mail </label>
+            <input type="text" class="text" id="email" name="email" onfocus="func(this)" onblur="func_remove(this)"/><br />
+        	<label for="branch">Branch </label>
+                	<select class="text" id="select" name="select">
+                    	<option>Select your branch</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Information Technology">Information Technology</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="ElectronicsI">Electronics & Ins.</option>
+                        <option value="ElectronicsTC">Electronics & TC</option>
+                    </select><br />
+                
+            
+        	<label for="section">Section</label>
+      <input type="text" maxlength="1" value="Type A/B" onfocus="func(this)" onblur="func_remove(this)" class="text" id="section" name="section"/><br />
+        	
+            <label for="mobile">Mobile Number </label>
+            <input type="text" maxlength="10" class="text" id="mno" onfocus="func(this)" onblur="func_remove(this)" name=""/><br />
+        	
+               <label for="gender">Gender </label>
+               <input type="radio" value="male" id="male" name="gender"/>Male
+                <input type="radio" value="female" id="female" name="gender"/>Female<br />
+            
+        	<label for="why">Why you are intrested in EWB ?</label><br />
+            <textarea cols="50" rows="5"></textarea><br /><br />
+            <input type="submit" class="submit" value="submit" id="submit" />
+            </form>
+     </div>
+</div>            
+
+                             <div>   
+                                <p class="message warning bottom">
+                                <b>Note:</b> This is just a demo for contact form styles and behaviour. <b>It doesn't actually submit anything.</b>
+                                To make it work, you will have to include a fitting script.
+                              </p>
+                             </div>   
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:BLANCH_CAPS;
+	src:url('../fonts/Blanch/BLANCH_CAPS.otf');
+}
+
+.try3{
+	background-color:#00FF40;
+	box-shadow:10px 10px 5px black;
+}
+
+.mem_form{
+	border:1px solid black;
+	width:650px;
+	height:500px;
+	margin-left:300px;
+	margin-top:150px;
+	border-radius:10px;
+}
+
+.inner{
+	border:0px solid black;
+	width:650px;
+	margin-left:100px;
+	height:500px;
+}
+
+label{
+	font-family:BLANCH_CAPS;
+	font-size:40px;
+}
+
+#member_name{
+	margin-left:100px;
+}
+
+#email{
+	margin-left:85px;
+}
+
+#select{
+	margin-left:80px;
+}
+
+#section{
+	margin-left:82px;
+}
+
+#male{
+	font-family:BLANCH_CAPS;
+	font-size:24px;
+}
+
+#female{
+	font-family:BLANCH_CAPS;
+	font-size:24px;
+}
+
+.text{
+	border-radius:5px;
+	border-color:green; 
+	width:200px;
+	height:20px;
+}
+
+textarea{
+	border-radius:5px;
+	border-color:green; 
+}
+.one{
+	width:200px;
+	margin-left:50px;
+}
+
+.submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #eaf048;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #eaf048;
+	box-shadow:inset 0px 1px 0px 0px #eaf048;
+	background-color:#F90;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	width:180px;
+	border:2px solid #eeb44f;
+	margin-left:100px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:BLANCH_CAPS;
+	font-size:27px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+
+
+.submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}
